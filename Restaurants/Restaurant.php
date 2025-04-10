@@ -33,6 +33,9 @@ class Restaurant {
     public function order(array $categories): Invoice {
         $selected_menu = $categories;
         
+        $orderedMenu = [];
+        $FoodItem->getCategory();
+        foreach 
 
     }
 }
